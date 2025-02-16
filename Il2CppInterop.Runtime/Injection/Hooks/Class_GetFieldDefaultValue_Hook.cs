@@ -9,6 +9,7 @@ using Il2CppInterop.Runtime.Runtime.VersionSpecific.Class;
 using Il2CppInterop.Runtime.Runtime.VersionSpecific.FieldInfo;
 using Il2CppInterop.Runtime.Startup;
 using Microsoft.Extensions.Logging;
+using System.Diagnostics;
 
 namespace Il2CppInterop.Runtime.Injection.Hooks
 {
