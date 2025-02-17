@@ -30,7 +30,7 @@ namespace Il2CppInterop.Runtime.Injection.Hooks
         private IntPtr FindGetTypeInfoFromTypeDefinitionIndex(bool forceICallMethod = false)
         {
             Logger.Instance.LogTrace("test");
-            IntPtr getTypeInfoFromTypeDefinitionIndex = IntPtr.Zero;
+            IntPtr getTypeInfoFromTypeDefinitionIndex = IntPtr.Zero; 
             long GameAssemblyBase = 0;
          
             foreach (ProcessModule module in Process.GetCurrentProcess().Modules)
