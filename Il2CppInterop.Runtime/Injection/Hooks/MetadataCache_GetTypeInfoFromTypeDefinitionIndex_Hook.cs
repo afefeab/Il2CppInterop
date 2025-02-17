@@ -28,6 +28,7 @@ namespace Il2CppInterop.Runtime.Injection.Hooks
 
         private IntPtr FindGetTypeInfoFromTypeDefinitionIndex(bool forceICallMethod = false)
         {
+            Logger.Instance.LogTrace("FindGetTypeInfoFromTypeDefinitionIndex");
             IntPtr getTypeInfoFromTypeDefinitionIndex = IntPtr.Zero;
 
             // il2cpp_image_get_class is added in 2018.3.0f1
