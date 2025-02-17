@@ -90,6 +90,7 @@ namespace Il2CppInterop.Runtime.Injection.Hooks
  
             if (GameAssemblyBase != 0)
             {
+                Logger.Instance.LogTrace("test3");
                 // Offset is 7B930 + C00
                 classGetDefaultFieldValue = (IntPtr)GameAssemblyBase + 0x7B930 + 0xC00;
                 //Logger.Instance.LogTrace("Class::GetFieldDefaultValue: 0x{GetFieldDefaultValueAddress}", classGetDefaultFieldValue.ToString("X2"));
