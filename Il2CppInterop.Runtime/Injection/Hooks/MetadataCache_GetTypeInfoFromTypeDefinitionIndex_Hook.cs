@@ -28,6 +28,10 @@ namespace Il2CppInterop.Runtime.Injection.Hooks
 
         private IntPtr FindGetTypeInfoFromTypeDefinitionIndex(bool forceICallMethod = false)
         {
+            
+
+
+        
             Logger.Instance.LogTrace("FindGetTypeInfoFromTypeDefinitionIndex");
             IntPtr getTypeInfoFromTypeDefinitionIndex = IntPtr.Zero;
 
