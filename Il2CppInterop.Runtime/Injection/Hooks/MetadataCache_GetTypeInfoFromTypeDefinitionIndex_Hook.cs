@@ -116,7 +116,7 @@ namespace Il2CppInterop.Runtime.Injection.Hooks
 
         public override IntPtr FindTargetMethod()
         {
-            return FindGetTypeInfoFromTypeDefinitionIndex();
+            return FindGetTypeInfoFromTypeDefinitionIndex(); 
         }
     }
 }
