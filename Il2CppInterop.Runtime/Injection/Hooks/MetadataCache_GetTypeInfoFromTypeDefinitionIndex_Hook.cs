@@ -45,10 +45,10 @@ namespace Il2CppInterop.Runtime.Injection.Hooks
             {
                 // Offset is 86610 + C00
                 getTypeInfoFromTypeDefinitionIndex = (IntPtr)GameAssemblyBase + 0x86610 + 0xC00;
-                //Logger.Instance.LogTrace("Type::GetUnderlyingType: 0x{TypeGetUnderlyingTypeAddress}", getTypeInfoFromTypeDefinitionIndex.ToInt64().ToString("X2"));
+                Logger.Instance.LogWarning("Type::GetUnderlyingType: 0x{TypeGetUnderlyingTypeAddress}", getTypeInfoFromTypeDefinitionIndex.ToInt64().ToString("X2"));
                 return getTypeInfoFromTypeDefinitionIndex;
             }
-            Logger.Instance.LogTrace("test");
+            Logger.Instance.LogWarning("test");
             return getTypeInfoFromTypeDefinitionIndex;
         }
 
